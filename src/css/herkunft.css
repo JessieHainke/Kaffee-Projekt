@@ -1,0 +1,103 @@
+.HeaderHerkunft {
+    display: flex;
+    height: 50vh;
+    width:100%;
+    background-image: url("../images/FEND-Coffee-beans-hand-2.jpg");
+    fill: solid;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.5);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.video {
+    width: 100%;
+    /*margin: 5vh 5vw;*/
+    box-sizing: border-box;
+}
+
+
+@media (min-width: 0px) {
+
+    /*.herkunftText {
+        padding: 1rem;
+        color: black;
+    }*/
+
+    .HerkunftOrder2 > img {
+        padding: 0;
+        padding-left: 30vw;
+        /*padding-top: 2rem;
+        padding-bottom: 2rem;*/
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    .HerkunftOrder3 > img {
+        width: 60%;
+        padding-right: 30vw;
+        /*padding-left: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;*/
+    }
+}
+
+
+@media (min-width: 768px) {
+    
+    .FlexHerkunftImg {
+        width: 10vw;
+        margin: 5vw;
+    }
+    
+    .FlexHerkunft {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /*padding: 5vw;*/
+    }
+    
+    .herkunftText {
+        width: 30vw;
+        padding-bottom: 5vw;
+        padding-left: 0;
+        padding-right: 3vw;
+        /*font-size: 14px;*/
+    }
+
+    .flex2Herkunft {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .HerkunftOrder1 {
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        flex-shrink: 3;
+    }
+    
+    .HerkunftOrder2 > img {
+        display: flex;
+        order: 2;
+        flex-grow: 2;
+        padding-left: 0;
+        width: 40vw;
+    }
+
+    .HerkunftOrder3 {
+        order: 3;
+        padding: 0;
+    }
+    
+    .HerkunftOrder4 {
+        order: 4;
+    }    
+
+    .HerkunftDesktopFlex {
+        
+    }
+}

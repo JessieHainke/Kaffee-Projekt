@@ -1,0 +1,85 @@
+
+/*----- ALLGEMEINES -----*/
+
+* {
+    padding: 0;
+    margin: 0;
+    color: unset;
+    background-color: unset;
+}
+
+
+
+/*----- SCHRIFTEN -----*/
+
+h1 {    
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2.25em;
+    padding-top: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5em;
+    padding-top: 1rem;
+}
+
+h4 {
+    font-size: 1.25em;
+    font-weight: 200;
+}
+
+p {
+    font-size: 1em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 100;
+}
+
+a {
+    font-size: 1em;
+}
+
+/*----- RÄNDER -----*/
+
+@media (min-width: 0px) {
+        .textRand {
+        padding: 1rem;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+        .textRand {
+        padding: 8vw;
+    }
+}
+
+
+/*----- FARBEN -----*/
+
+.SchwarzAufWeiß {
+    background-color: white;
+    color: black;
+}
+
+.WeißOhneSchwarz {
+    color: white;
+}
+
+.WeißAufSchwarz {
+    background-color: black;
+    color: white;
+}
+
+.bgSchwarz {
+    background-color: black;
+}
+
+.bgWeiß {
+    background-color: white;
+}

@@ -1,0 +1,44 @@
+@media (min-width: 0px) {
+    .menu {
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        color: white;
+        position: absolute;
+        transform: translate(0);
+        transition: transform .8s ease;
+    }
+}
+
+@media (min-width: 578px) {
+    .menu {
+        display: none;
+    }
+}
+
+.MenuList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 2rem;
+    background-color: black;
+    padding-top: 40vh;
+}
+
+.MenuButton {
+    display: inline;
+    float: right;
+    padding: 1.5rem;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    line-height: 4rem;
+    font-family: Roboto, sans serif;
+    font-weight: 400;
+}

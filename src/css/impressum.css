@@ -1,0 +1,29 @@
+@media (min-width:0px) {
+    .Impressum {
+        
+        padding: 5rem 2rem;
+        
+    }
+}
+
+@media (min-width:768px) {
+    .Impressum {
+        
+        padding: 20vw 20vw;
+        
+    }
+}
+
+.logoBlack {
+    filter: brightness(0%);
+}
+.ulli {
+    list-style-type: none;
+}
+.ulli > li {
+    text-indent: -0.5rem;
+}
+.ulli > li::before {
+    content: "-";
+    text-indent: -0.5rem;
+}
