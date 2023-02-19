@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.HeaderFooter {
+    height: 50vh;
+    background-color: #1A1A1A;
+}
+
+
+
+/* Sass:
+
+$bg-color: white;
+$color: black;
+$padding: 1rem;
+
+*/
+
+.header {
+    display: flex;
+    height: 50vh;
+    width:100%;
+    background-image: url("../images/FEND-Coffee-shop.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+@media (min-width: 0px) {
+
+    .Flex1 {
+        height: 50vh;
+        /*
+        background-color: $bg-color;
+        color: $color;
+        padding: $padding;
+        */
+    }
+
+}
+
+
+.Flex2 {
+    /*
+    background-color:$bg-color;
+    color: $color;
+    padding: $padding;
+    */
+}
+
+
+@media (min-width: 0px) {
+
+    .Flex3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 3rem;
+        height: fit-content;
+    }
+    
+    .columnFlex3 {
+        columns: 2;
+        column-gap: .3rem;
+        margin-left: .5rem;
+    }
+
+    .columnFlex3b {
+        display: none;
+    }
+    
+    .columnFlex3 img {
+        margin: 0.2rem;
+        width: 90%;
+    }    
+}
+
+
+@media (min-width: 768px) {
+
+    .columnFlex3 {
+        display: none;
+    }
+
+    .columnFlex3b {
+        display: block;
+        columns: 4;
+        column-gap: 0.3rem;
+        margin-left: .5rem;
+    }
+
+    /*
+
+    .Flex3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .columnFlex3 {
+        flex: 20%;
+        max-width: 20%;
+        padding: 0 .5rem;
+    }
+    
+    .columnFlex3 img {
+        margin: .5rem;
+        vertical-align: middle;
+        width: 100%;
+    } */
+
+}
+
+.Flex4 {
+    /*
+    background-color:$bg-color;
+    color: $color;
+    padding: $padding;
+    */
+}
