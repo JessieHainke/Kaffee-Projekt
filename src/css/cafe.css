@@ -1,59 +1,41 @@
-* {
+/** {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-.HeaderFooter {
-    height: 50vh;
-    background-color: #1A1A1A;
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
-
-
-/* Sass:
-
-$bg-color: white;
-$color: black;
-$padding: 1rem;
-
-*/
+.HeaderFooter {
+    height: 50vh;
+    
+}
+main {
+    
+}*/
 
 .header {
     display: flex;
     height: 50vh;
     width:100%;
     background-image: url("../images/FEND-Coffee-shop.jpg");
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.5);
     background-size: cover;
     background-position: center;
     justify-content: center;
     align-items: center;
     position: relative;
+    box-sizing: border-box;
 }
-
-
-@media (min-width: 0px) {
-
-    .Flex1 {
-        height: 50vh;
-        /*
-        background-color: $bg-color;
-        color: $color;
-        padding: $padding;
-        */
-    }
-
+.textboxCafe3 {
+    display: flex;
+    flex-direction: column;
+    padding: 0vw 15vw;
 }
-
-
-.Flex2 {
-    /*
-    background-color:$bg-color;
-    color: $color;
-    padding: $padding;
-    */
-}
-
 
 @media (min-width: 0px) {
 
@@ -62,66 +44,112 @@ $padding: 1rem;
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        padding-bottom: 3rem;
+        /*padding-bottom: 3rem;*/
         height: fit-content;
     }
-    
     .columnFlex3 {
         columns: 2;
         column-gap: .3rem;
-        margin-left: .5rem;
+        /*margin-left: .5rem;*/
     }
-
     .columnFlex3b {
         display: none;
     }
-    
     .columnFlex3 img {
-        margin: 0.2rem;
+        /*margin: 0.2rem;*/
         width: 90%;
     }    
+    
+    .Flex1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        /*margin-left: 2rem;
+        margin-right: 2rem;
+        padding-top: 2rem;*/
+    }
+   .imgKaffeemaschine {
+        width: 60vw;
+        /*padding: 5vw;*/
+    }
+    .Flex2 {
+        display: flex;
+        justify-content: center;
+        /*margin: 5vw 5vw;*/
+    }
 }
-
 
 @media (min-width: 768px) {
-
-    .columnFlex3 {
-        display: none;
-    }
-
-    .columnFlex3b {
-        display: block;
-        columns: 4;
-        column-gap: 0.3rem;
-        margin-left: .5rem;
-    }
-
-    /*
-
     .Flex3 {
+        /*margin: 0 4rem;*/
         display: flex;
+        flex-direction: row;
+        justify-content:left;
+        box-sizing: border-box;
+    }
+    .columnFlex3 {
+        height: 40vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
+        max-width: 20%;
+        gap: 0.5rem;
+        margin: 0 25vw;
+        box-sizing: border-box;
+    }
+
+    .img1 {
+        order: 1;
+    }
+    .img2 {
+        order: 5;
+    }
+    .img3 {
+        order: 6;
+    }
+    .img4 {
+        order: 2;
+    }
+    .img5 {
+        order: 3;
+    }
+    .img6 {
+        order: 8;
+    }
+    .img7 {
+        order: 7;
+    }
+    .img8 {
+        order: 4;
+    }
+
+    .Flex1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /*margin-left: 2rem;
+        margin-right: 2rem;
+        padding-top: 2rem;*/
+    }
+    .textColumns2 {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 30vh;
+        margin-bottom: 10vh;
+    }
+    .Flex2 {
+        display: flex;
         justify-content: center;
     }
-    
-    .columnFlex3 {
-        flex: 20%;
-        max-width: 20%;
-        padding: 0 .5rem;
+    .imgKaffeemaschine {
+        width: 50vw;
+        padding: 2vw;
     }
-    
-    .columnFlex3 img {
-        margin: .5rem;
-        vertical-align: middle;
-        width: 100%;
-    } */
-
+  
 }
-
-.Flex4 {
-    /*
-    background-color:$bg-color;
-    color: $color;
-    padding: $padding;
-    */
+.Karte {
+    margin: 0;
+    padding: 0;
 }
