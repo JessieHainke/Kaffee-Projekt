@@ -19,22 +19,8 @@
   <body>
     <main>
       <header class="HeaderHerkunft">
-        {{>header }} <!--
-        <div class="logoStyle">
-          <img src="/images/Logo.svg" fill="white" class="logo1">
-          <img src="/images/Burger Menu.svg" class="logo2">
-          <nav class="Nav">
-            <img src="/images/Logo.svg" class="LogoNavDesktop">
-            <div class="logolinksnav">
-              <a href="/sub-page/cafe.html" class="LinksNavDesktop WeißOhneSchwarz">das Café</a>
-              <a href="/sub-page/herkunft.html" class="LinksNavDesktop WeißOhneSchwarz">Herkunft</a>
-              <a href="/sub-page/shop.html" class="LinksNavDesktop WeißOhneSchwarz">Shop</a>
-              <img src="/images/Einkaufskorb.svg" class="ShopNavDesktop" alt="Zum Shop">
-            </div>
-          </nav>
-        </div>-->
+        {{>header }}
       </header>
-      
       <section class="flex2Herkunft text3desktop textRand SchwarzAufWeiß">
         <h2>Der Ursprung von Rustica</h2>
         <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen.Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.</p>
@@ -42,21 +28,25 @@
 
       <section>
         <video class="textRand video SchwarzAufWeiß" controls muted>
-          <source src="Video.mp4" type="video/mp4">
+          <source src="/../images/close-up-of-dark-roasted.webm" type="video/webm">
+          <source src="/../images/close-up-of-dark-roasted.mp4" type="video/mp4">
           <alt>Video zur Herkunft</alt>
         </video>
       </section>
       
       <div class="FlexHerkunft textRand SchwarzAufWeiß">
-        <section class="herkunftText HerkunftOrder1">
-        <h2>Die Anbaugebiete</h2>
-        <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen.Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.</p>
-        </section>
+        <div class="AnbauContainer">
+          <section class="herkunftText HerkunftOrder1">
+          <h2>Die Anbaugebiete</h2>
+          <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen.Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.</p>
+          </section>
+          
+          <section class="HerkunftOrder2">
+            <img src="../images/FEND-coffee-plant-2.jpg" class="FlexHerkunftImg">
+          </section>
+        </div>
         
-        <section class="HerkunftOrder2">
-          <img src="../images/FEND-coffee-plant-2.jpg" class="FlexHerkunftImg">
-        </section>
-        
+        <div class="KaffeebauerContainer">
           <section class="herkunftText HerkunftOrder4">
             <h2>Das Wohl der <br>Kaffeebauern</h2>
             <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen.Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.</p>
@@ -65,31 +55,8 @@
           <section class="HerkunftOrder3">
             <img src="../images/FEND-Coffee-worker.jpg" alt="Kaffeebauer" class="FlexHerkunftImg">
           </section>
-        
+        </div>
       </div>
     </main>
     {{>footer }}
-    <!--
-    <footer class="HeaderFooter flexItem7 textRand WeißAufSchwarz">
-      <img src="/images/Logo.svg" class="logoFooter">
-      <div class="flex7Überschriften">
-        <h3>Rustica</h3>
-      <h4>Café und Rösterei</h4>
-      </div>
-      <div class="FooterUnten">
-        <p class="FooterLinks">Komm uns besuchen!<br> Fraunhoferstr. 13, Kiel</p>
-        <p class="FooterRechts">Mo - Fr 8-18 Uhr<br> Sa 11-18 Uhr</p>
-      </div>
-      <div class="FooterUnten">
-        <div class="FooterLinks">
-          <a href="/subpage/impressum.html" class="FooterLinks WeißAufSchwarz">Impressum</a>
-          <a href="/subpage/impressum.html" class="FooterLinks WeißAufSchwarz">Datenschutz</a>
-        </div>
-        <div class="FooterRechts">
-          <a href="/subpage/cafe.html" class="FooterRechts WeißAufSchwarz">Café</a>
-          <a href="/subpage/shop.html" class="FooterRechts WeißAufSchwarz">Shop</a>
-          <a href="/subpage/herkunft.html" class="FooterRechts WeißAufSchwarz">Herkunft</a>
-        </div> 
-      </div>
-   </footer>-->
   </body>

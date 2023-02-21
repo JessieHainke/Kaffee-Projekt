@@ -1,26 +1,13 @@
-/** {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
-p {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+.body {
+    max-width: 1440px;
 }
-
-.HeaderFooter {
-    height: 50vh;
-    
-}
-main {
-    
-}*/
 
 .header {
+    box-sizing: border-box;
     display: flex;
     height: 50vh;
-    width:100%;
+    width: 100%;
     background-image: url("../images/FEND-Coffee-shop.jpg");
     background-blend-mode: overlay;
     background-color: rgba(0,0,0,0.5);
@@ -29,8 +16,9 @@ main {
     justify-content: center;
     align-items: center;
     position: relative;
-    box-sizing: border-box;
+    
 }
+
 .textboxCafe3 {
     display: flex;
     flex-direction: column;
@@ -44,93 +32,56 @@ main {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        /*padding-bottom: 3rem;*/
         height: fit-content;
+        padding-bottom: 3rem;
+        flex-wrap: wrap;
+
     }
     .columnFlex3 {
         columns: 2;
         column-gap: .3rem;
-        /*margin-left: .5rem;*/
+        margin-left: .5rem;
     }
     .columnFlex3b {
         display: none;
     }
     .columnFlex3 img {
-        /*margin: 0.2rem;*/
-        width: 90%;
+        width: 40vw;
+        margin: .2rem;
     }    
     
     .Flex1 {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        /*margin-left: 2rem;
-        margin-right: 2rem;
-        padding-top: 2rem;*/
     }
    .imgKaffeemaschine {
         width: 60vw;
-        /*padding: 5vw;*/
     }
     .Flex2 {
         display: flex;
         justify-content: center;
-        /*margin: 5vw 5vw;*/
     }
 }
 
 @media (min-width: 768px) {
     .Flex3 {
-        /*margin: 0 4rem;*/
-        display: flex;
-        flex-direction: row;
-        justify-content:left;
-        box-sizing: border-box;
+        margin: 0 4rem;
     }
     .columnFlex3 {
-        height: 40vw;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        max-width: 20%;
-        gap: 0.5rem;
-        margin: 0 25vw;
-        box-sizing: border-box;
+        display: none;
     }
 
-    .img1 {
-        order: 1;
-    }
-    .img2 {
-        order: 5;
-    }
-    .img3 {
-        order: 6;
-    }
-    .img4 {
-        order: 2;
-    }
-    .img5 {
-        order: 3;
-    }
-    .img6 {
-        order: 8;
-    }
-    .img7 {
-        order: 7;
-    }
-    .img8 {
-        order: 4;
+    .columnFlex3b {
+        columns: 4;
+        column-gap: 0.3rem;
+        margin-left: .5rem;
     }
 
     .Flex1 {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        /*margin-left: 2rem;
-        margin-right: 2rem;
-        padding-top: 2rem;*/
     }
     .textColumns2 {
         display: flex;
@@ -147,7 +98,6 @@ main {
         width: 50vw;
         padding: 2vw;
     }
-  
 }
 .Karte {
     margin: 0;

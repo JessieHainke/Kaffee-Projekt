@@ -37,7 +37,7 @@
             <div class="textColumns2  SchwarzAufWeiß">
               <p class="columnsFlex2">Kaffee aus Kiel, direkt gehandelt und geröstet in der eigenen Rösterei, serviert im gemütlichen Café in der Innenstadt.</p>
               <div class="CF2  SchwarzAufWeiß">
-                <p class="columnsFlex2">Komm uns besuchen! Fraunhoferstr. 13, Kiel</p>
+                <p class="columnsFlex2">Komm uns besuchen!<br>Fraunhoferstr. 13, Kiel</p>
                 <p class="columnsFlex2">Mo - Fr 8-18 Uhr<br>Sa 11-18 Uhr</p>
               </div>
             </div>
@@ -51,7 +51,7 @@
           <img src="/images/FEND-coffee-plant.jpg" alt="Kaffeepflanze" class="floatLeft">
         </div>
       </section>
-
+     
       <section class="flexItem3 WeißAufSchwarz">
         <h2 class="KaffeeTütenh2 textRand">Entdecke unsere Kaffee Sorten</h2>
         
@@ -106,25 +106,12 @@
         </div>
         </div>   
         <a href="/sub-page/" class="ProduktLink WeißAufSchwarz">alle Produkte</a>
-        
-
-        <!--
-        <section class="KaffeeSlider">
-          <div class="Kaffeetüten">
-            <img src="../images/FEND_Coffee_Costa-Rica 2.jpg" alt="Kaffee aus Costa Rica">
-            <img src="../images/FEND_Coffee_Costa-Rica 2.jpg" alt="Kaffee aus Costa Rica">
-            <img src="../images/FEND_Coffee_Costa-Rica 2.jpg" alt="Kaffee aus Costa Rica">
-            <img src="../images/FEND_Coffee_Costa-Rica 2.jpg" alt="Kaffee aus Costa Rica">
-          </div>
-          <div class="SliderButtons">
-              <button class="BtnZurück">zurück</button>
-              <button class="BtnNächster">nächster</button>
-          </div>  
-        </section>
-        -->
-
-
       </section>
+
+        <section class="bgSlider">
+          {{>slider }}
+        </section>
+        
       <section class="flexItem4 textRand">
         <div class="KaffeeHerkunft WeißOhneSchwarz">
           <h2 class="h2flex4">Herkunft</h2>
@@ -136,44 +123,29 @@
       <section class="flexItem5 textRand SchwarzAufWeiß">
         <h2 class="h2Style">Das steckt drin</h2>
         <img src="/images/FEND_Coffee_Costa-Rica 2.jpg" class="imgFlex5">
+        <div class="IconsTextFlex5">
           <div class="IconsFlex5 SchwarzAufWeiß">
             <img src="/images/Icons/Icon Kaffee Tasse.svg">
             <p>Bester<br> Geschmack</p>
+          </div>
+          <div  class="IconsFlex5 SchwarzAufWeiß">
             <img src="/images/Icons/Icon Kaffee Schaufel schwarz.svg">
             <p>Fair<br> gehandelt</p>
+          </div>
+          <div  class="IconsFlex5 SchwarzAufWeiß">
             <img src="/images/Icons/Icon-Kaffee Pflanze.svg">
             <p>Bio<br> Qualität</p>
-            <a href="/sub-page/" class="shopLinkFlex5">zum Shop</a>  
-          </div>    
+          </div>
+          <a href="/sub-page/" class="shopLinkFlex5b">zum Shop</a> 
+        </div>
+          <a href="/sub-page/" class="shopLinkFlex5">zum Shop</a>  
       </section>
 
       <section class="flexItem6 SchwarzAufWeiß">
         <h2 class="textRand">Komm vorbei</h2>
         <iframe class="Karte" name="Karte" title="Karte zur Kaffeerösterei" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.113279819488527%2C54.33920923513429%2C10.13119697570801%2C54.34466301897322&amp;layer=mapnik&amp;marker=54.34193621749849%2C10.122238397598267"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=54.34194&amp;mlon=10.12224#map=17/54.34194/10.12224">Größere Karte anzeigen</a></small>
       </section>
-
-      
-       <!--   <section class="FooterUllis">
-        </section>
-      
-         
-        <div class="FooterUnten WeißAufSchwarz">
-          <p class="FooterLinks">Komm uns besuchen!<br> Fraunhoferstr. 13, Kiel</p>
-          <p class="FooterRechts">Mo - Fr 8-18 Uhr<br> Sa 11-18 Uhr</p>
-        </div>
-        <div class="FooterUnten2 WeißAufSchwarz">
-          <div class="FooterLinks WeißAufSchwarz">
-            <a href="/subpage/impressum.html" class="FooterLinks WeißAufSchwarz">Impressum</a>
-            <a href="/subpage/impressum.html" class="FooterLinks WeißAufSchwarz">Datenschutz</a>
-          </div>
-          <div class="FooterRechts WeißAufSchwarz">
-            <a href="../sub-page/cafe.html" class="FooterRechts WeißAufSchwarz">Café</a>
-            <a href="#flexItem2" class="FooterRechts WeißAufSchwarz">Shop</a>
-            <a href="#flexItem4" class="FooterRechts WeißAufSchwarz">Herkunft</a>
-          </div> 
-        </div> --> 
-        {{>footer }}
-      
+      {{>footer }}
     </main>
     <script src="/js/index.js" type="module"></script>
     <script src="/css/menu_sp.js" type="module"></script>
