@@ -61,9 +61,6 @@ img {
   }
 }
 
-@media (min-width: 576px) {
-}
-
 @media (min-width: 768px) {
  
   .logoStyle {
@@ -76,6 +73,7 @@ img {
     width: 100%;
     justify-content: space-between;
     text-decoration: none;
+    padding: 0 8vw;
   }
   .logolinksnav {
     display: flex;
@@ -83,7 +81,8 @@ img {
   }
   .LogoNavDesktop {
     display: inline;
-    height: 4rem;
+    height: 2rem;
+    padding-top: 1vw;
     float: inline-start;
     filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
   }
@@ -122,11 +121,9 @@ img {
 main {
   position: relative;
 }
-
 h2 {
   font-size: var(--h2-font-size)
 }
-
 .titel2 {
   font-size:1.5rem;
 }
@@ -138,7 +135,6 @@ h2 {
   flex-direction:column;
   justify-content: center;
 }
-
 .flexItem1 {
   box-sizing: border-box;
   display: flex;
@@ -153,7 +149,6 @@ h2 {
   align-items: center;
   position: relative;
 }
-
 .textbox1 {
   display: flex;
   flex-direction: column;
@@ -161,12 +156,10 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-
 .h1 {
   display: flex;
   justify-content: center;
 }
-
 .h1-sub {
   font-size: 1.15rem;
   font-weight: 100;
@@ -174,7 +167,6 @@ h2 {
   display: flex;
   justify-content: center;
 }
-
 .shopLink {
   height:2rem;
   width:6rem;
@@ -192,15 +184,12 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-
 .shopLink:hover {
   opacity: 0.5;
 }
-
 .shopLink:active {
   background-color: white;
 }
-
 .flexItem2 {
   display: flex;
   flex-direction: column;
@@ -224,11 +213,9 @@ h2 {
     gap: 8vw;
   }
 }
-
 .textColumns2 {
   word-wrap: break-word;
 }
-
 .CF2 {
   column-count: 2;
 }
@@ -291,7 +278,6 @@ h2 {
   align-items: center;
   width:100%;
 }
-
 .grauerText {
   color: grey;
   padding-top: 0;
@@ -325,24 +311,20 @@ h2 {
   }
 }
 
-
 .ColumnsKaffee {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
 }
-
 .flex3KaffeeText {
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
-
 .h4 {
   margin: 0rem;
   padding: 0rem;
 }
-
 .ProduktLink {
   background-color:#1A1A1A;
   border: 0.1rem solid white;
@@ -362,15 +344,12 @@ h2 {
   margin-top:3rem;
   margin-bottom: 3rem;
 }
-
 .ProduktLink:active {
   background-color: white;
 }
-
 .ProduktLink:hover {
   opacity: 0.5;
 }
-
 .iconsflex3 {
   display: flex;
   flex-direction: row;
@@ -383,7 +362,6 @@ h2 {
   padding-left: 0.75rem;
   text-align: left;
 }
-
 .flexItem4 {
   display:flex;
   flex-direction: column;
@@ -396,13 +374,11 @@ h2 {
   text-align: center;
   box-sizing: border-box;
 }
-
 .textbox4 {
   text-align: center;
   padding: .2rem;
   margin: .4rem;
 }
-
 .shopLink3 {
   flex-direction: column;
   justify-content: center;
@@ -426,21 +402,18 @@ h2 {
   }
   .imgFlex5 {
     width: 50vw;
-    
   }
   .IconsFlex5 {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
     width: 10vw;
-    padding: 5vw;
+    padding: 5vw 7vw;
   }
-
   .IconsTextFlex5 {
     display: flex;
     justify-content: space-between;
   }
-
   .shopLinkFlex5 {
     display: block;
     height:2rem;
@@ -459,12 +432,10 @@ h2 {
     border-radius: 0.5rem;
     line-height: 2rem;
   }
-
   .shopLinkFlex5b {
     display: none;
     width:0rem;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -526,15 +497,12 @@ h2 {
   flex-wrap: nowrap;
   justify-content: space-between;
 }
-
 .shopLinkFlex5:hover {
   opacity: 0.5;
 }
-
 .shopLinkFlex5:active {
   background-color: white;
 }
-
 .flexItem6 {
   display: flex;
   flex-direction: column;
@@ -558,7 +526,6 @@ h2 {
   }
 }
 
-
 .logoFooter {
   display: flex;
   flex-direction: row;
@@ -567,7 +534,6 @@ h2 {
   height: 2rem;
   filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
 }
-
 .flex7Überschriften {
   padding-bottom: 1rem;
 }
@@ -582,7 +548,6 @@ h2 {
     justify-content: flex-start;
     padding: 5%;
   }
-
   .flexItem7 {
     display: flex;
     width:100%;
@@ -592,11 +557,9 @@ h2 {
     padding-top: 5rem;
     box-sizing: border-box;
   }
-
   .ulliDiv2 {
     padding: 5px;
   }
-
   .ulliDiv  {
     display: flex;
     flex-direction: row;
@@ -604,7 +567,6 @@ h2 {
     columns: 2;
     justify-content: space-between;
   }
-
   .FooterUllisUnten {
     display: flex;
     flex-direction: row;
@@ -626,16 +588,13 @@ h2 {
     flex-direction: row;
     box-sizing: border-box;
   }
-
   .ulliDesktopReverse1 {
     order: 1;
     padding-right: 6rem;
   }
-
   .ulliDesktopReverse2 {
     order: 2;
   }
-
   .ulliDiv {
     display: flex;
     flex-direction: column;
@@ -645,7 +604,6 @@ h2 {
   .ulliDiv > ul {
     padding-top: 0rem;
   }
-
   .ulliDiv2 {
     padding-top: 3rem;
     font-size: 12px;

@@ -16,6 +16,7 @@
 .video {
     width: 100%;
     box-sizing: border-box;
+    display: block;
 }
 
 p {
@@ -34,13 +35,11 @@ h2 {
         width: 90%;
         box-sizing: border-box;
     }
-
     .HerkunftOrder3 > img {
         width: 60%;
         padding-right: 30vw;
     }
 }
-
 
 @media (min-width: 768px) {
 
@@ -55,16 +54,14 @@ h2 {
         padding-left: 0;
         color: black;
     }
-
     .AnbauContainer {
         display: flex;
         justify-content: space-between;
+        padding-bottom: 2rem;
     }
-
     .KaffeebauerContainer {
         display: flex;
     }
-
     .flex2Herkunft {
         display: flex;
         flex-direction: column;
@@ -76,8 +73,6 @@ h2 {
         padding-bottom: 0;
         flex-shrink: 3;
     }
-
-
     .HerkunftOrder2 > img {
         display: flex;
         order: 1;
@@ -85,8 +80,6 @@ h2 {
         padding-top: 10rem;
         width: 100%;
     }
-    
-
     .HerkunftOrder3 > img {
         order: 3;
         padding: 0;
@@ -94,10 +87,8 @@ h2 {
         padding-top: 10rem;
         width: 75%;
     }
-
     .HerkunftOrder4 {
         order: 4;
         padding-top: 0;
     }    
- 
 }

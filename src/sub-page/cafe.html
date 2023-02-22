@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Das Café</title>
-    
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
       rel="stylesheet"
@@ -14,12 +13,12 @@
   <link rel="stylesheet" href="/css/styles.css"/>
   </head>
   
-  
 <body>
-    <header class="header">
-      {{>header }} 
-    </header>
+    
     <main>
+      <header class="header">
+      {{>header }} 
+      </header>
         <section class="Flex1 cafeText1 textRand SchwarzAufWeiß">
             <div class="textColumns2 SchwarzAufWeiß">
               <h2 class="titel2">Rösterei und Café</h2>
@@ -40,29 +39,34 @@
         </section>
 
         <section class="Flex3 columnFlex3 textRand SchwarzAufWeiß">
-              <img src="../images/FEND-danish 1.jpg">
+          <div>
+            <img src="../images/FEND-danish 1.jpg">
               <img src="../images/FEND-coffee-machine.jpg">
               <img src="../images/FEND-Coffee-latte-art.jpg">
               <img src="../images/FEND-Coffee-sign.jpg">
+          </div>
+            <div>
               <img src="../images/FEND-Coffee-latte-art-2.jpg">
               <img src="../images/FEND-coffee-breakfast 1.jpg">
               <img src="../images/FEND-coffee-list.jpg">
               <img src="../images/FEND-Coffee-latte-art-3.jpg">
+            </div>
         </section>
-        <section class="Flex3 columnFlex3b textRand SchwarzAufWeiß">
+        <section class="Flex3 columnFlex3b SchwarzAufWeiß">
             <img src="../images/FEND-danish 1.jpg" class="img1">
-            <img src="../images/FEND-coffee-machine.jpg" class="img2">
-            <img src="../images/FEND-Coffee-latte-art.jpg" class="img3">
             <img src="../images/FEND-Coffee-sign.jpg" class="img4">
             <img src="../images/FEND-Coffee-latte-art-2.jpg" class="img5">
-            <img src="../images/FEND-coffee-breakfast 1.jpg" class="img6">
-            <img src="../images/FEND-coffee-list.jpg" class="img7">
             <img src="../images/FEND-Coffee-latte-art-3.jpg" class="img8">
+            <img src="../images/FEND-coffee-machine.jpg" class="img2">
+            <img src="../images/FEND-Coffee-latte-art.jpg" class="img3">
+            <img src="../images/FEND-coffee-list.jpg" class="img7">
+            <img src="../images/FEND-coffee-breakfast 1.jpg" class="img6">
       </section>
         <section class="Flex4 flexItem6 SchwarzAufWeiß">
             <h2 class="textRand">Komm vorbei</h2>
-            <iframe class="Karte" name="Karte" title="Karte zur Kaffeerösterei" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.113279819488527%2C54.33920923513429%2C10.13119697570801%2C54.34466301897322&amp;layer=mapnik&amp;marker=54.34193621749849%2C10.122238397598267"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=54.34194&amp;mlon=10.12224#map=17/54.34194/10.12224">Größere Karte anzeigen</a></small>
+            <iframe class="Karte" name="Karte" title="Karte zur Kaffeerösterei" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.113279819488527%2C54.33920923513429%2C10.13119697570801%2C54.34466301897322&amp;layer=mapnik&amp;marker=54.34193621749849%2C10.122238397598267"></iframe>
       </section>
+      {{>footer }}
     </main>
-    {{>footer }}
+    
 </body>
