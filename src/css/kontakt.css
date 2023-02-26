@@ -6,3 +6,29 @@
 .Kontaktformular {
     padding: 4rem;
 }*/
+
+
+.KontaktStyle {
+    height: 75vh;
+}
+
+@media (min-width: 0px) {
+    .KontaktFormular {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .KontaktFormular {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    }
+}
+
+.buttonKontakt {
+    width: 5rem;
+    height: 4rem;
+}
