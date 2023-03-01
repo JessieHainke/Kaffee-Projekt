@@ -14,8 +14,13 @@ function ulliAdd() {
     add.appendChild(toDo); // verbindet Listenelement und ToDo
     document.querySelector(".toDoListe").appendChild(add); // stellt ToDo als Teil der ToDo-Liste dar
     document.querySelector(".textfeld").value = ""; // leert Input-Feld :-)
-
+    
 }
+
+//document.querySelector(".addToDo").addEventListener("click", ulliAdd);
+
+
+
 
 
 function ulliRemove() {
