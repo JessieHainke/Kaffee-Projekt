@@ -25,9 +25,15 @@ function ulliAdd() {
 
 function ulliRemove() {
 
-    var y = document.querySelector(".toDoListe").value; // sammelt das Erledigte aus dem Input-Feld
+    var tdlInhalt = document.querySelector(".toDoListe").value // sammelt das Erledigte aus dem Input-Feld --> NEIN, sammelt NUR TO-DO-LISTEN-INHALT!!!
+    console.log(tdlInhalt);
+    
+    var toDoDelete = document.querySelector(".textRemove").value // sammelt Input-Feld-Inhalt
+    console.log(toDoDelete);
+    
 
-    document.querySelector(".toDoListe").remove(y); // entfernt im Moment alles
+    document.querySelector(".toDoListe").remove(toDoDelete); // entfernt (im Moment alles) --> ist aber in der Liste?
+    document.querySelector(".textRemove").value = ""; // leert Remove-Input-Feld :-)
 }
 
 
