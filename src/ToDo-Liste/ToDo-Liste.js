@@ -25,9 +25,9 @@ function ulliAdd() {
 
 function ulliRemove() {
 
-    var y = document.querySelector(".textRemove").value; // sammelt das Erledigte aus dem Input-Feld
+    var y = document.querySelector(".toDoListe").value; // sammelt das Erledigte aus dem Input-Feld
 
-    y.remove(); 
+    document.querySelector(".toDoListe").remove(y); // entfernt im Moment alles
 }
 
 
