@@ -1,10 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaffeerösterei Rustica</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+  <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="bg">
+    <div>
+        <h1>To-Do-Liste</h1>
+        <ul class="toDoListe"></ul>
+        <input type="text" class="textfeld">
+        <button onclick="ulliAdd()" class="addToDo">ToDo</button>
 
-<h1>To-Do-Liste</h1>
-<ul class="toDoListe"></ul>
-<input type="text" class="textfeld">
-<button onclick="ulliAdd()" class="addToDo">ToDo</button>
+        <input type="text" class="textRemove">
+        <button onclick="ulliRemove()">ToDo entfernen</button>
 
-<input type="text" class="textRemove">
-<button onclick="ulliRemove()">ToDo entfernen</button>
+        <button onclick="changeColor()">Hintergrundfarbe wechseln</button>
 
-<script src="ToDo-Liste.js"></script>
+        <script src="ToDo-Liste.js"></script>
+    </div>
+  </body>
+</html>
