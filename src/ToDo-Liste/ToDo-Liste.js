@@ -43,11 +43,14 @@ function changeColor() {
     var r = Math.floor(Math.random() * '255');
     var g = Math.floor(Math.random() * '255');
     var b = Math.floor(Math.random() * '255');
+    //var a = Math.random() * '1';
 
-    document.querySelector(".bg").style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')'; // damit es die Farbe wirklich nach rgb-Dings wechselt, müssen die Zahlen im richtigen Format sein (nm ng!)
+    document.querySelector(".bg").style.backgroundColor = 'rgba(' + r + ',' + g + ',' + b + ')'; // damit es die Farbe wirklich nach rgb-Dings wechselt, müssen die Zahlen im richtigen Format sein (nm ng!)
 }
 
 // TO DO FÜR DIE TO-DO-LISTE:
 // - Inputfeld leeren, wenn ToDo übernommen - ERLEDIGT :-)
 // - Inputfeld auch mit Enter-Taste bedienbar machen
-// - ToDo-Einträge löschen oder als erledigt markieren --> "remove" funktioniert nicht wirklich...
+// - ToDo-Einträge löschen oder als erledigt markieren --> "remove" funktioniert nicht wirklich... --> vielleicht mit "delete"?
+
+// - FARBGENERATOR FUNKTIONIERT!! <3 :-)

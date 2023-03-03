@@ -8,21 +8,43 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
       rel="stylesheet"
     />
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="styles.css">
   </head>
   <body class="bg">
-    <div>
-        <h1>To-Do-Liste</h1>
-        <ul class="toDoListe"></ul>
-        <input type="text" class="textfeld">
-        <button onclick="ulliAdd()" class="addToDo">ToDo</button>
+    <h1>To-Do-Liste</h1>
+    
+    <section class="containerToDoListe">
+       <input type="text" class="textfeld">
+      <button onclick="ulliAdd()" class="addToDo">ToDo</button>
 
-        <input type="text" class="textRemove">
-        <button onclick="ulliRemove()">ToDo entfernen</button>
+      <input type="text" class="textRemove">
+      <button onclick="ulliRemove()" class="deleteToDo">ToDo entfernen</button>
+      
+      <ul class="toDoListe"></ul>
+    
+      <button onclick="changeColor()" class="changeColor">Hintergrundfarbe wechseln</button>
+    </section>
+    
 
-        <button onclick="changeColor()">Hintergrundfarbe wechseln</button>
+    <!--
+    <th></th>
+    <table class="tdlTable">
+      <tr>
+        <th>To Do</th>
+        <th>Deadline</th>
+        <th>Stand/Fortschritt</th>
+        <th>Erledigt?</th>
+        <th>Aus der Liste löschen?</th>
+      </tr>
+      <tr>
+        <ul>
+          <li class="listInTable"></li>
+        </ul>
+      </tr>
+        
+    </table>
+        <th></th> -->
 
         <script src="ToDo-Liste.js"></script>
-    </div>
   </body>
 </html>

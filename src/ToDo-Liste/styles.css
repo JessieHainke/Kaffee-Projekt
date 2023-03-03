@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.toDoListe {
+    list-style-type: circle;
+}
+
+.containerToDoListe {
+    border: 2px solid black;
+    width: 70vw;
+    padding: 3rem;
+
+}
+
+button {
+    width: 25vw;
+    padding: 3px;
+}
+
+.addToDo {
+    background-color: #009933;
+    color: #66ff99;
+}
+
+.deleteToDo {
+    background-color: #cc0000;
+    color: #ffb3b3;
+}
+
+.changeColor {
+    background-color: #ff00ff;
+    color: #ffe6ff;
+    margin-top: 10rem;
+}
+
+
+
+
+/*
+
+.tdlTable {
+    border: 2px solid #009933;
+    display: flex;
+    justify-content: flex-start;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #009933;
+    color: white;
+  }
+*/
