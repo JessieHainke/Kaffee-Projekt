@@ -25,6 +25,9 @@ function ulliAdd() {
 
 function ulliRemove() {
 
+    const ToDoItems = document.querySelectorAll('li');
+    console.log(ToDoItems);
+
     var tdlInhalt = document.querySelector(".toDoListe").value; // sammelt das Erledigte aus dem Input-Feld --> NEIN, sammelt NUR TO-DO-LISTEN-INHALT!!!
     console.log(tdlInhalt);
     
@@ -36,6 +39,8 @@ function ulliRemove() {
     document.querySelector(".textRemove").value = ""; // leert Remove-Input-Feld :-)
     document.querySelector(".bg").style.backgroundColor = "white";
 }
+
+
 
 
 function changeColor() {
@@ -51,6 +56,7 @@ function changeColor() {
 // TO DO FÜR DIE TO-DO-LISTE:
 // - Inputfeld leeren, wenn ToDo übernommen - ERLEDIGT :-)
 // - Inputfeld auch mit Enter-Taste bedienbar machen
-// - ToDo-Einträge löschen oder als erledigt markieren --> "remove" funktioniert nicht wirklich... --> vielleicht mit "delete"?
+// - ToDo-Einträge löschen oder als erledigt markieren --> "remove" funktioniert nicht wirklich... --> vielleicht mit "delete"? 
+        //--> UM DA ERST EINMAL RAN ZU KOMMEN, KÖNNTE ICH AUS DEN ToDo-Items ein Array machen (bereits geschafft) und dann mit einer for-Schleife dieses durchsuchen! :-)
 
 // - FARBGENERATOR FUNKTIONIERT!! <3 :-)
