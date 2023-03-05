@@ -2,11 +2,50 @@
     margin: 0;
 }
 
-.ProdDetail1 {
+
+
+@media (min-width: 0px) {
+        .KaffeeKaufen {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prodDetailsDesktop {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ProdDetail1 {
     padding: 4rem 15vw;
     display: flex;
     justify-content: center;
+    }
 }
+
+@media (min-width: 766px) {
+    .KaffeeKaufen {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+    .prodDetailsDesktop {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ProdDetail1 {
+        padding: 6rem 3vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ProdDetail4 {
+        padding: 10vw 25vw;
+    }
+
+}
+
 
 .ProdDetail2 {
     display: flex;

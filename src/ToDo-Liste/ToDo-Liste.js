@@ -69,7 +69,7 @@ function changeColor() {
     var b = Math.floor(Math.random() * '255');
     //var a = Math.random() * '1';
 
-    document.querySelector(".bg").style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')'; // damit es die Farbe wirklich nach rgb-Dings wechselt, müssen die Zahlen im richtigen Format sein (nm ng!)
+    document.querySelector(".containerToDoListe").style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')'; // damit es die Farbe wirklich nach rgb-Dings wechselt, müssen die Zahlen im richtigen Format sein (nm ng!)
 
 
 }

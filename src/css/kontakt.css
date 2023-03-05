@@ -7,10 +7,20 @@
     padding: 4rem;
 }*/
 
-
-.KontaktStyle {
-    height: 75vh;
+select {
+    background-color: black;
+    color: white;
 }
+
+select > option {
+    background-color: white;
+    color: black;
+}
+
+select > option:focus {
+    background-color: #C4C4C4;
+}
+
 
 @media (min-width: 0px) {
     .KontaktFormular {
@@ -75,8 +85,11 @@ input {
 }
 
 .DatenSchutz {
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     color: black;
+    gap: 2vw;
 }
 
 .Nachricht {
