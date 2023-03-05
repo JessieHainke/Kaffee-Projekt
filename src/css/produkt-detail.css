@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+.ProdDetail1 {
+    padding: 4rem 15vw;
+    display: flex;
+    justify-content: center;
+}
+
+.ProdDetail2 {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.selectStyleProdDetail {
+    border: 1px solid black;
+    border-radius: 2px;
+    height:2rem;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+    margin-top:3rem;
+    margin-bottom: 2rem;
+    background: white;
+    color: black;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProdDetail3 {
+    display: flex;
+    justify-content:flex-start;
+}
