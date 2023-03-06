@@ -59,6 +59,16 @@ function ulliRemove() {
 
 }
 
+function animation() {                                      // diese wunderbare Funktion erstellt div-Elemente, färbt die Hintergründe dieser schwarz und die Schrift weiß und zeigt den entsprechenden Text an
+    const animationDiv = document.createElement("div");     // das werde ich nutzen, um die NavBar richtig hinzubekommen :-)
+    animationDiv.innerHTML = "test<br>test2";
+    animationDiv.style.backgroundColor = "black";
+    animationDiv.style.color = "white";
+
+
+    document.body.appendChild(animationDiv);
+
+}
 
 
 
