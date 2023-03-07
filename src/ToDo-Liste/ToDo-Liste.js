@@ -59,17 +59,31 @@ function ulliRemove() {
 
 }
 
-function animation() {                                      // diese wunderbare Funktion erstellt div-Elemente, färbt die Hintergründe dieser schwarz und die Schrift weiß und zeigt den entsprechenden Text an
-    const animationDiv = document.createElement("div");     // das werde ich nutzen, um die NavBar richtig hinzubekommen :-)
+const animationDiv = document.createElement("div"); // diese wunderbare Variable erstellt div-Elemente
+
+function animation() {                                  //     färbt die Hintergründe der divs schwarz und die Schrift weiß und zeigt den entsprechenden Text an
+                                             // das werde ich nutzen, um die NavBar richtig hinzubekommen :-)
+  
+    
+    
+    
     animationDiv.innerHTML = "test<br>test2";
+    animationDiv.style.display = "block";
     animationDiv.style.backgroundColor = "black";
     animationDiv.style.color = "white";
-
-
+    animationDiv.style.height = "100vh";
+    animationDiv.style.width = "100vw";
     document.body.appendChild(animationDiv);
-
+    
+    animationDiv.style.transitionDuration = "5s";
+    animationDiv.style.transition = "transform 5s ease";
+    
 }
 
+
+function animationClose() {
+    animationDiv.style.display = "none";
+}
 
 
 function changeColor() {
