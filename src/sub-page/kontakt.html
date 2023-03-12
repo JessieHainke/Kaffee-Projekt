@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="/css/main.css" />
   <link rel="stylesheet" href="/css/kontakt.css" />
   <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/kontakt.scss" />
+  <script src="/js/kontakt.js"></script>
   </head>
   <body>
     <main class="SchwarzAufWeiß">
@@ -39,6 +41,36 @@
                 <option value="">Vertriebsfragen</option>
                 <option value="">einfach nur so!</option>
               </select>
+
+              <ul class="dropdown">
+                <li id="dropdown-label" class="dropdown__label" >Dein Betreff</li>
+                
+                <li
+                  role="button"
+                  aria-labelledby="dropdown-label"
+                  id="dropdown__selected"
+                  tabindex="0">Frage zur Lieferung
+                </li>
+                
+                <svg
+                  class="dropdown__arrow"
+                  width="10"
+                  height="5"
+                  viewBox="0 0 10 5"
+                  fill-rule="evenodd">
+                  <title>Open drop down</title>
+                  <path d="M10 0L5 5 0 0z"></path>
+                </svg>
+
+                <li aria-expanded="false" role="list" class="dropdown__list-container">
+                  <ul class="dropdown__list">
+                    <li class="dropdown__list-item" tabindex="0" id="option-1">Frage zur Lieferung</li>
+                    <li class="dropdown__list-item" tabindex="0" id="option-2">Frage zum Produkt</li>
+                    <li class="dropdown__list-item" tabindex="0" id="option-3">Vertriebsfragen</li>
+                    <li class="dropdown__list-item" tabindex="0" id="option-4">einfach nur so!</li>
+                  </ul>
+                </li>
+              </ul>
 
               <label>Deine Nachricht</label>
               <input type="text" class="Nachricht" name="" placeholder="Was hast du auf dem Herzen?">
