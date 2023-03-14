@@ -9,10 +9,39 @@ function greetHandler() {
     console.log('Moin!');
 }
 
+
+
+
 greeting2.addEventListener('click', greetHandler2);
+const arr = [0, 1, 2];
+const object = {
+    a: 1,
+    b: 2,
+    c: 3
+}
+
+
 
 function greetHandler2 () {
     console.log('Moin Moin!');
+        for (let i = 0; i < 5; i++) {  // for-Loop "normal"
+        console.log(i);
+    }
+        for (const el of arr) {             // for-Loop "for-out"
+            console.log(el + 'array-Item');
+        }
+
+        /*for (const x of object) { // for-Loop "for-in" --> geht noch nicht
+            console.log(x);
+            console.log(object[x]);
+        }*/
+
+        let i = 0;
+
+        while (i < 5) {         // while-loop :-)
+            i++;
+            console.log(i * 100);
+        }
 }
 
 const greeting3 = document.querySelector('.gutenMorgen');
