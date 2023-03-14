@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.greetings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30vh;
+    gap: 10vh;
+}
+
+.moin {
+    font-size: 48px;
+   
+}
+
+.moinMoin {
+    font-size: 28px;
+    
+}
